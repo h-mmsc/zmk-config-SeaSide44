@@ -27,6 +27,13 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        textautoinput: textautoinput {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(I) &kp MINUS &kp L &kp O &kp V &kp E &kp MINUS &kp M &kp A &kp R &kp U &kp P &kp O &kp R &kp O &kp MINUS &kp N9 &kp N2>;
+            label = "TEXTAUTOINPUT";
+        };
     };
 
     behaviors {
@@ -65,10 +72,10 @@
 
         NUM {
             bindings = <
-&kp LA(X)          &kp LA(C)  &kp LA(C)  &kp LA(N)  &kp LA(A)          &kp LA(F)                         &none          &none         &none     &mkp MB2       &none  &none
-&kp LC(LA(LG(C)))  &kp LG(A)  &none      &none      &kp LC(LG(LS(F)))  &none                             &none          &kp LG(LEFT)  &mkp MB1  &kp LG(RIGHT)  &none  &none
-&kp LC(LG(Q))      &trans     &kp LG(X)  &kp LG(C)  &kp LG(V)          &none                             &none          &none         &none     &none          &none  &none
-                              &trans     &trans     &trans             &trans     &trans    &kp PAGE_UP  &kp PAGE_DOWN                &none
+&kp LA(X)          &kp LA(C)  &kp LA(C)  &kp LA(N)  &kp LA(A)          &kp LA(F)                         &none          &none           &none     &mkp MB2       &none  &none
+&kp LC(LA(LG(C)))  &kp LG(A)  &none      &none      &kp LC(LG(LS(F)))  &none                             &none          &kp LG(LEFT)    &mkp MB1  &kp LG(RIGHT)  &none  &none
+&kp LC(LG(Q))      &trans     &kp LG(X)  &kp LG(C)  &kp LG(V)          &none                             &none          &textautoinput  &none     &none          &none  &none
+                              &trans     &trans     &trans             &trans     &trans    &kp PAGE_UP  &kp PAGE_DOWN                  &none
             >;
         };
 
