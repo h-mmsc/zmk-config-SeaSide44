@@ -74,7 +74,7 @@
             bindings = <
 &kp LA(X)          &kp LA(C)  &kp LA(C)  &kp LA(N)  &kp LA(A)          &kp LA(F)                         &none          &none           &none     &mkp MB2       &none  &none
 &kp LC(LA(LG(C)))  &kp LG(A)  &none      &none      &kp LC(LG(LS(F)))  &none                             &none          &kp LG(LEFT)    &mkp MB1  &kp LG(RIGHT)  &none  &none
-&kp LC(LG(Q))      &trans     &kp LG(X)  &kp LG(C)  &kp LG(V)          &none                             &none          &textautoinput  &none     &none          &none  &none
+&kp LC(LG(Q))      &none      &kp LG(X)  &kp LG(C)  &kp LG(V)          &none                             &none          &textautoinput  &none     &none          &none  &none
                               &trans     &trans     &trans             &trans     &trans    &kp PAGE_UP  &kp PAGE_DOWN                  &none
             >;
         };
