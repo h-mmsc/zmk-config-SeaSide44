@@ -63,10 +63,10 @@
 
         SYMBOL {
             bindings = <
-&kp K_MUTE        &kp C_VOLUME_UP  &kp C_VOLUME_UP   &kp AMPERSAND         &none              &kp SEMI                                   &kp PLUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N7        &kp N8        &kp N9
-&kp LS(LA(DOWN))  &kp LS(LA(A))    &kp LA(LS(LEFT))  &kp LS(LA(UP_ARROW))  &kp LA(LS(RIGHT))  &kp LA(LG(LEFT))                           &kp EQUAL      &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
-&kp LEFT_SHIFT    &kp CARET        &kp DOLLAR        &kp HASH              &kp AMPERSAND      &kp AT                                     &kp BACKSLASH  &kp LBKT              &kp RBKT               &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
-                                   &kp STAR          &kp PERCENT           &trans             &trans            &trans    &kp LG(MINUS)  &kp LG(PLUS)                         &kp N0
+&kp K_MUTE        &kp C_VOL_DN   &kp C_VOLUME_UP   &kp AMPERSAND         &none              &kp SEMI                                   &kp PLUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N7        &kp N8        &kp N9
+&kp LS(LA(DOWN))  &kp LS(LA(A))  &kp LA(LS(LEFT))  &kp LS(LA(UP_ARROW))  &kp LA(LS(RIGHT))  &kp LA(LG(LEFT))                           &kp EQUAL      &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
+&kp LEFT_SHIFT    &kp CARET      &kp DOLLAR        &kp HASH              &kp AMPERSAND      &kp AT                                     &kp BACKSLASH  &kp LBKT              &kp RBKT               &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
+                                 &kp STAR          &kp PERCENT           &trans             &trans            &trans    &kp LG(MINUS)  &kp LG(PLUS)                         &kp N0
             >;
         };
 
