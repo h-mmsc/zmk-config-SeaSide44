@@ -52,10 +52,10 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE        &kp Q             &kp W         &kp E                     &kp R          &kp T                                         &kp Y                 &kp U    &kp I      &kp O       &lt 2 P               &kp COLON
-&kp CAPS          &mt LEFT_SHIFT A  &kp S         &lt 1 D                   &lt 3 F        &kp G                                         &kp H                 &lt 3 J  &lt 1 K    &kp L       &mt LEFT_SHIFT MINUS  &kp EXCL
-&mt LEFT_GUI TAB  &kp Z             &kp X         &kp C                     &kp V          &kp B                                         &kp N                 &kp M    &kp COMMA  &kp PERIOD  &kp SLASH             &kp QUESTION
-                                    &kp LEFT_ALT  &kp LC(LS(LG(NUMBER_4)))  &kp LG(LS(C))  &kp SPACE  &kp LC(UP_ARROW)    &kp BACKSPACE  &mt RIGHT_GUI RETURN           &none
+&kp ESCAPE        &kp Q             &kp W         &kp E                     &kp R            &kp T                                         &kp Y                 &kp U    &kp I      &kp O       &lt 2 P               &kp COLON
+&kp CAPS          &mt LEFT_SHIFT A  &kp S         &kp D                     &lt 3 F          &kp G                                         &kp H                 &lt 3 J  &lt 1 K    &kp L       &mt LEFT_SHIFT MINUS  &kp EXCL
+&mt LEFT_GUI TAB  &kp Z             &kp X         &kp C                     &kp V            &kp B                                         &kp N                 &kp M    &kp COMMA  &kp PERIOD  &kp SLASH             &kp QUESTION
+                                    &kp LEFT_ALT  &kp LC(LS(LG(NUMBER_4)))  &lt 1 LG(LS(C))  &kp SPACE  &kp LC(UP_ARROW)    &kp BACKSPACE  &mt RIGHT_GUI RETURN           &none
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -72,10 +72,10 @@
 
         NUM {
             bindings = <
-&kp LS(LG(X))      &kp LA(C)  &kp LA(S)  &kp LA(N)  &kp LA(A)          &kp LA(F)                         &none          &none           &none     &mkp MB2       &none  &none
-&kp LC(LA(LG(C)))  &kp LG(A)  &none      &none      &kp LC(LG(LS(F)))  &none                             &none          &kp LG(LEFT)    &mkp MB1  &kp LG(RIGHT)  &none  &none
-&kp LC(LG(Q))      &none      &kp LG(X)  &kp LG(C)  &kp LG(V)          &kp LG(B)                         &none          &textautoinput  &none     &none          &none  &none
-                              &trans     &trans     &trans             &trans     &trans    &kp PAGE_UP  &kp PAGE_DOWN                  &none
+&kp LS(LG(X))      &kp LA(C)  &kp LA(S)  &kp LA(N)  &kp LA(A)  &kp LA(F)                         &none          &none           &none     &mkp MB2       &none  &none
+&kp LC(LA(LG(C)))  &kp LG(A)  &none      &none      &none      &none                             &none          &kp LG(LEFT)    &mkp MB1  &kp LG(RIGHT)  &none  &none
+&kp LC(LG(Q))      &none      &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)                         &none          &textautoinput  &none     &none          &none  &none
+                              &trans     &trans     &trans     &trans     &trans    &kp PAGE_UP  &kp PAGE_DOWN                  &none
             >;
         };
 
