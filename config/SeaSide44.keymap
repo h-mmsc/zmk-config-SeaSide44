@@ -52,10 +52,10 @@
 
         default_layer {
             bindings = <
-&mt LEFT_SHIFT ESCAPE  &kp Q  &kp W         &kp E                     &kp R            &kp T                                         &kp Y                 &kp U    &kp I      &kp O       &lt 2 P               &kp COLON
-&kp CAPS               &kp A  &kp S         &kp D                     &lt 3 F          &kp G                                         &kp H                 &lt 3 J  &lt 1 K    &kp L       &mt LEFT_SHIFT MINUS  &kp EXCL
-&mt LEFT_GUI TAB       &kp Z  &kp X         &kp C                     &kp V            &kp B                                         &kp N                 &kp M    &kp COMMA  &kp PERIOD  &kp SLASH             &kp QUESTION
-                              &kp LEFT_ALT  &kp LC(LS(LG(NUMBER_4)))  &lt 1 LG(LS(C))  &kp SPACE  &kp LC(UP_ARROW)    &kp BACKSPACE  &mt RIGHT_GUI RETURN           &none
+&mt LEFT_SHIFT ESCAPE  &kp Q  &kp W         &kp E                     &kp R            &kp T                                         &kp Y                 &kp U    &kp I              &kp O       &lt 2 P               &kp COLON
+&kp CAPS               &kp A  &kp S         &kp D                     &lt 3 F          &kp G                                         &kp H                 &lt 3 J  &lt 1 K            &kp L       &mt LEFT_SHIFT MINUS  &kp EXCL
+&mt LEFT_GUI TAB       &kp Z  &kp X         &kp C                     &kp V            &kp B                                         &kp N                 &kp M    &kp COMMA          &kp PERIOD  &kp SLASH             &kp QUESTION
+                              &kp LEFT_ALT  &kp LC(LS(LG(NUMBER_4)))  &lt 1 LG(LS(C))  &kp SPACE  &kp LC(UP_ARROW)    &kp BACKSPACE  &mt RIGHT_GUI RETURN           &kp RIGHT_CONTROL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
